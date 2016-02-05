@@ -1,0 +1,33 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Emanuele Pasqualotto
+tagline:             'plot(x,y)'
+description:         I am a researcher in Bruxelles. In this blog I try to give room to some of the things I like.
+url:                 "www.pasqualotto.me"
+baseurl:             ''
+paginate:            5
+
+# Social settings
+twitter_username: plotxy
+github_username: plotxy
+gplus_username:  EmanuelePasqualotto
+disqus_username: emanuelepasqualotto
+linkedin_username: emanuelepasqualotto
+
+author:
+  name: Emanuele Pasqualotto
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']

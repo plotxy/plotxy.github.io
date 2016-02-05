@@ -1,0 +1,101 @@
+
+.post-item
+  //text-align:justify
+  padding:2.5rem 0
+  border-bottom:3px solid #f2f2f2
+  *zoom:1
+  width:auto
+  max-width:62.5rem
+  float:none
+  display:block
+  margin-right:auto
+  margin-left:auto
+  padding-left:0
+  padding-right:0
+
+.post-item:before, .post-item:after
+  content:''
+  display:table
+
+.post-item:after
+  clear:both
+
+@media only screen and (max-width:62.5rem)
+  .post-item
+    padding-left:1.25rem
+    padding-right:1.25rem
+
+.post-item .datetime
+  *zoom:1;
+  float:left;
+  clear:none;
+  text-align:inherit;
+  width:14.166666666666664%;
+  margin-left:0%;
+  margin-right:3%;
+  text-align:center;
+  text-decoration:none;
+
+.post-item .datetime:before,
+.post-item .datetime:after
+  content:''
+  display:table
+
+.post-item .datetime:after
+  clear:both
+
+.post-item .datetime:last-child
+  margin-right:0%
+
+@media only screen and (max-width:37.5rem){
+  .post-item .datetime{display:block;clear:both;float:none;width:100%;margin-left:auto;margin-right:auto}
+  .post-item .datetime:first-child{margin-left:auto}
+  .post-item .datetime:last-child{margin-right:auto}
+}
+
+.post-item .datetime .day
+  font-weight:800
+  font-style:normal
+  color:maincolor
+  font-size:4rem
+
+@media only screen and (max-width:37.5rem){
+  .post-item .datetime .day{display:block;clear:both;float:none;width:100%;margin-left:auto;margin-right:auto}
+  .post-item .datetime .day:first-child{margin-left:auto}
+  .post-item .datetime .day:last-child{margin-right:auto}
+}
+.post-item .datetime .month-year{color:#000;font-size:1.125rem}
+
+
+.post-item .content
+  *zoom:1
+  float:left
+  clear:none
+  text-align:justify
+  width:82.83333333333334%
+  margin-left:0%
+  margin-right:3%
+
+.post-item .content:before,
+.post-item .content:after{content:'';display:table}
+.post-item .content:after{clear:both}
+.post-item .content:last-child{margin-right:0%}
+
+@media only screen and (max-width:37.5rem){
+  .post-item .content{display:block;clear:both;float:none;width:100%;margin-left:auto;margin-right:auto}
+  .post-item .content:first-child{margin-left:auto}
+  .post-item .content:last-child{margin-right:auto}
+}
+
+.post-item .content .date{color:maincolor}
+.post-item .content .post-title{color:#000;font-size:2rem;}
+
+@media only screen and (max-width:37.5rem)
+  .post-item .content .post-title
+    text-align:center
+
+.post-item .content .description
+  color:#333
+  font-weight:400
+  font-style:normal
+  font-size:1.1rem
