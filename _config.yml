@@ -5,6 +5,7 @@ description:         I am a researcher in Bruxelles. In this blog I give room to
 url:                 'www.pasqualotto.me'
 baseurl:             ''
 paginate:            5
+permalink:           pretty
 
 # Social settings
 twitter_username: plotxy
