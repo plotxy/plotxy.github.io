@@ -7,8 +7,8 @@ relative_permalinks: true
 # Setup
 title:               Emanuele Pasqualotto
 tagline:             'plot(x,y)'
-description:         I am a researcher in Bruxelles. In this blog I try to give room to some of the things I like.
-url:                 "www.pasqualotto.me"
+description:         I am a researcher in Bruxelles. In this blog I give room to some of the things I like.
+url:                 ''
 baseurl:             ''
 paginate:            5
 
