@@ -1,6 +1,5 @@
 permalink:           pretty
 markdown: kramdown
-highlighter: pygments
 
 # Setup
 title:               Emanuele Pasqualotto
