@@ -5,7 +5,7 @@ markdown: kramdown
 title:               Emanuele Pasqualotto
 tagline:             'plot(x,y)'
 description:         I am a researcher in Bruxelles. In this blog I give room to some of the things I like.
-url:                 ''
+url:                 'www.pasqualotto.me'
 baseurl:             ''
 paginate:            5
 
